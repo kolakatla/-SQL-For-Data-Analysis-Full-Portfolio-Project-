@@ -1,2 +1,5 @@
-# -SQL-For-Data-Analysis-Full-Portfolio-Project-
-guruguruchaean99@gmail.com
+-- Retrieve the total number of orders placed.
+SELECT 
+    COUNT(order_id) AS total_orders 
+FROM 
+    orders;
